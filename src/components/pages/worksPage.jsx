@@ -9,3 +9,25 @@
 //         </li>
 //       ))}
 //     </ul> 
+
+function worksPage(props) {
+    return(
+    <>
+    <h3>{props.title}</h3>
+    <ul className="list-group">
+        {props.works.map(item => (
+        <li className="list-group-works" key={item.id}>
+           <a href= {item.link}> 
+            <img 
+            alt = {item.title}
+            src = {item.img}
+            />
+            </a>
+            <p>{item.description}</p>
+        </li>
+        ))}
+    </ul>
+    </>
+    );
+}
+export default worksPage;
