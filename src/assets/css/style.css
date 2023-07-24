@@ -1,0 +1,157 @@
+
+:root{
+--gray: gray;
+--white: snow;
+--black: #040000;
+--header-radius: 20%;  
+}
+
+*{
+    font-family: sans-serif, monospace;
+    background-color: var(--gray);
+
+}
+
+
+h1,
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h3{
+    font-size: 30px; 
+}
+p{
+    font-size: 25px;
+}
+#About-Me{
+    margin-top: 2%;
+    border-radius: var(--header-radius);
+}
+
+#My-Work {
+    border-radius: var(--header-radius);
+}
+
+
+a{
+    background-color: var(--black);
+    color:var(--white);
+
+}
+.work{
+    display: contents;   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--black);
+    color: var(--white);
+    text-decoration: underline;
+}
+#First-Work{
+    width: 80%;
+}
+#Grad{
+    margin-left: -12%;
+    margin-top: -5%;
+}
+img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+#First-Work:hover{
+    width: 100%;
+}
+#Grad:hover{
+    width: 30%;
+}
+img:hover{
+    width: 40%;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+
+.part-1{
+    display: flex;
+    justify-content: row;
+    align-items: row;
+    margin-top: 0px;
+}
+
+.part-2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+
+
+
+@media screen and (max-width: 504px) {
+    h1,
+    h2,
+    nav,
+    .card,
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 25%;
+
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    h1,
+    h2,
+    nav,
+    .card,
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+
+}
+}
+
+@media screen and (max-width: 995px) {
+    h1,
+    h2,
+    nav,
+    footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    }
+
+}
