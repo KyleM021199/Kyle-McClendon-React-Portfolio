@@ -1,31 +1,38 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './assets/css/styles.css'
+import Error from './components/pages/errorPage';
+import Home from './components/pages/homePage';
+import Contact from './components/pages/ContactPage';
+import About from './components/pages/aboutMePage';
+import Work from './components/pages/worksPage';
+import './assets/css/style.css'
 import './assets/css/reset.css'
-import { element } from 'prop-types';
+
+
+
 
 const router = createBrowserRouter([
-    // Todo: Define the accessible routes, and which components respond to which URL
     {
       path: '/',
       element: <App/>,
-      errorElement: <errorPage/>,
+      errorElement: <Error/>,
       children: [
         {
         index: true,
-        element: <homePage/>,
+        element: <Home/>,
         },
         {
           path: '/works-page',
-          element: <worksPage/>,
+          element: <Work/>,
         },
         {
-          path: '/about-Page',
-          element: <aboutMePage/>,
+          path: '/about-page',
+          element: <About/>,
         },
         {
             path:'/contact-page',
-            element: <ContactPage/>,
+            element: <Contact/>,
         },
 
       ],
