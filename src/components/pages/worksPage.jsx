@@ -13,20 +13,24 @@
 function worksPage(props) {
     return(
     <>
-    <h3>{props.title}</h3>
+    
+    <h2>My Works</h2>
+    
     <ul className="list-group">
         {props.works.map(item => (
+
         <li className="list-group-works" key={item.id}>
-           <a href= {item.link}> 
-            <img 
-            alt = {item.title}
-            src = {item.img}
-            />
+            <section className="card">
+    <header><h3>{item.title}</h3></header>
+           <a className="work"  href= {item.link}> 
+            <img  src={item.img} alt= {item.title}/>
             </a>
             <p>{item.description}</p>
+            </section>
         </li>
         ))}
     </ul>
+   
     </>
     );
 }

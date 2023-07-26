@@ -11,7 +11,24 @@ import './assets/css/reset.css'
 
 
 
+const works = [
+  {
+    id: 1,
+    title: "Tree Finder",
+    link: "https://duckturtle.github.io/Full-Throttle--TreeFinder-The-Park-Finder-App/",
+    img:"./src/assets/images/StateView.JPG",
+    description: "A website where parks are found by state with their infomation. I helped develop the CSS with the CSS structure, Tailwind.",
 
+  }
+  // {
+  //   id: 2,
+  //   title: "Tree Finder",
+  //   link: "https://duckturtle.github.io/Full-Throttle--TreeFinder-The-Park-Finder-App/",
+  //   img:"../images/StateView.JPG",
+  //   description: "A website where parks are found by state with their infomation. I helped develop the CSS with the CSS structure, Tailwind.",
+
+  // },
+]
 const router = createBrowserRouter([
     {
       path: '/',
@@ -24,7 +41,7 @@ const router = createBrowserRouter([
         },
         {
           path: '/works-page',
-          element: <Work/>,
+          element: <Work works={works} />,
         },
         {
           path: '/about-page',
