@@ -27,11 +27,28 @@ h3{
     font-size: 30px; 
 }
 p{
-    font-size: 25px;
+
+    font-size: 20px;
 }
 #About-Me{
     margin-top: 2%;
     border-radius: var(--header-radius);
+}
+li.nav-item{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
+    background-color: var(--black);
+}
+ul.nav-tabs{
+    margin: 10px;
+    background-color: var(--black);
+}
+ul{
+ justify-content: space-around;
 }
 
 #My-Work {
@@ -52,7 +69,7 @@ nav{
     justify-content: space-around;
     background-color: var(--black);
     color: var(--white);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 #First-Work{
     width: 80%;

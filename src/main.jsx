@@ -19,15 +19,15 @@ const works = [
     img:"./src/assets/images/StateView.JPG",
     description: "A website where parks are found by state with their infomation. I helped develop the CSS with the CSS structure, Tailwind.",
 
-  }
-  // {
-  //   id: 2,
-  //   title: "Tree Finder",
-  //   link: "https://duckturtle.github.io/Full-Throttle--TreeFinder-The-Park-Finder-App/",
-  //   img:"../images/StateView.JPG",
-  //   description: "A website where parks are found by state with their infomation. I helped develop the CSS with the CSS structure, Tailwind.",
+  },
+  {
+    id: 2,  
+    title: "Rock Paper Showdown",
+    link: "https://rock-paper-showdown-ed328492c032.herokuapp.com/",
+    img:"./src/assets/images/Rock-Paper-Showdown.PNG",
+    description: "A social Rock Paper Scissors app that uses Socket.io for chat functionality. My work consisted of using Handlebars.js to render the many pages.",
 
-  // },
+  },
 ]
 const router = createBrowserRouter([
     {
