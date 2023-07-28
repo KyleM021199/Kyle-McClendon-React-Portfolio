@@ -30,6 +30,19 @@ p{
 
     font-size: 20px;
 }
+button{
+    background: var(--black);
+    color: var(--white)
+
+}
+.contact-form{
+    margin-top: 50%;
+    margin-left: 280%;
+    display: table-caption;
+}
+.form-item{
+    vertical-align:middle;
+}
 #About-Me{
     margin-top: 2%;
     border-radius: var(--header-radius);
@@ -70,6 +83,16 @@ nav{
     background-color: var(--black);
     color: var(--white);
     /* text-decoration: underline; */
+}
+.Intro{
+    text-align: center;
+}
+.Intro-p{
+    text-align: center;
+
+}
+.error-text{
+    text-align: center;
 }
 #First-Work{
     width: 80%;
@@ -127,7 +150,9 @@ img:hover{
     align-items: flex-end;
 
 }
-
+.footer-nav{
+justify-content: flex;
+}
 
 
 
