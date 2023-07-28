@@ -23,7 +23,7 @@
   N/A
 
   ## Usage
-  Use the Netlify link to the site:
+  Use the Netlify link to the site: https://kylemreactportfolio.netlify.app
 
   ## Contributing
   N/A
