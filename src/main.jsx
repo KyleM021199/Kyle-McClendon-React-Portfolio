@@ -6,9 +6,10 @@ import Home from './components/pages/homePage';
 import Contact from './components/pages/ContactPage';
 import About from './components/pages/aboutMePage';
 import Work from './components/pages/worksPage';
-import './assets/css/style.css'
-import './assets/css/reset.css'
-
+import './assets/css/style.css';
+import './assets/css/reset.css';
+import treeFinderImg from '../../assets/images/StateView.JPG';
+import RPSImg from '../../assets/images/Rock-Paper-Showdown.PNG';
 
 
 const works = [
@@ -16,7 +17,7 @@ const works = [
     id: 1,
     title: "Tree Finder",
     link: "https://duckturtle.github.io/Full-Throttle--TreeFinder-The-Park-Finder-App/",
-    img:"./src/assets/images/StateView.JPG",
+    img:treeFinderImg,
     description: "A website where parks are found by state with their infomation. I helped develop the CSS with the CSS structure, Tailwind.",
 
   },
@@ -24,7 +25,7 @@ const works = [
     id: 2,  
     title: "Rock Paper Showdown",
     link: "https://rock-paper-showdown-ed328492c032.herokuapp.com/",
-    img:"./src/assets/images/Rock-Paper-Showdown.PNG",
+    img: RPSImg,
     description: "A social Rock Paper Scissors app that uses Socket.io for chat functionality. My work consisted of using Handlebars.js to render the many pages.",
 
   },
