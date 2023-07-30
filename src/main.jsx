@@ -8,8 +8,8 @@ import About from './components/pages/aboutMePage';
 import Work from './components/pages/worksPage';
 import './assets/css/style.css';
 import './assets/css/reset.css';
-import treeFinderImg from '../../assets/images/StateView.JPG';
-import RPSImg from '../../assets/images/Rock-Paper-Showdown.PNG';
+import treeFinderImg from './assets/images/StateView.JPG';
+import RPSImg from './assets/images/Rock-Paper-Showdown.PNG';
 
 
 const works = [
