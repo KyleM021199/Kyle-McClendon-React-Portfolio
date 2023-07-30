@@ -8,8 +8,8 @@ import About from './components/pages/aboutMePage';
 import Work from './components/pages/worksPage';
 import './assets/css/style.css';
 import './assets/css/reset.css';
-import treeFinderImg from './assets/images/StateView.JPG';
-import RPSImg from './assets/images/Rock-Paper-Showdown.PNG';
+import treeFinderImg from './assets/images/StateView.jpg';
+import RPSImg from './assets/images/Rock-Paper-Showdown.png';
 
 
 const works = [
@@ -17,7 +17,7 @@ const works = [
     id: 1,
     title: "Tree Finder",
     link: "https://duckturtle.github.io/Full-Throttle--TreeFinder-The-Park-Finder-App/",
-    img:treeFinderImg,
+    img: treeFinderImg,
     description: "A website where parks are found by state with their infomation. I helped develop the CSS with the CSS structure, Tailwind.",
 
   },
