@@ -1,3 +1,4 @@
+import gradImg from '../../assets/images/Grad-Picture.jpg'
 export default function About() {
     return (
       <div>
@@ -5,7 +6,7 @@ export default function About() {
         <div class="part-1">
       <section class="card">
         
-        <img id="Grad" src="./src/assets/images/Grad-Picture.jpg" alt = "Graduation photo"/>
+        <img id="Grad" src={gradImg} alt = "Graduation photo"/>
         <p>
         I am a graduate of the University of Wisconsin-Whitewater looking to get a 
           first step into an IT career. The idea of working with computers has always interested me all my life. 
